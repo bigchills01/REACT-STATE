@@ -5,12 +5,12 @@ const Profil = (props) => {
   return (
     <div className="center">
       <div className="avatar">
-        <img src={require('../../image/kale.JPG')} alt="img" />
+        <img src={require('../../image/pics.jpg')} alt="img" />
       </div>
       <div className="contente" style={{ padding: "20px" }}>
-        <h1 style={{ color: "#259B9A" }}>{fullName}</h1>
-        <h2 style={{ color: "#373A36" }}>{profession}</h2>
-        <p style={{ color: "#808000" }}>{bio}</p>
+        <h1 style={{ color: "darkblue" }}>{fullName}</h1>
+        <h2 style={{ color: "brown" }}>{profession}</h2>
+        <p style={{ color: "black" }}>{bio}</p>
       </div>
       <div className="social">
         <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">

@@ -25,12 +25,12 @@
   font-size: 20px;
   cursor: pointer;
   width: 300px;
-  background-color: #D48166;
+  background-color: brown;
   color: white;
   border-radius: 7px;
   border: none;
   outline: none;
 }
 .btn:hover{
-  background-color: #11ABC1;
+  background-color: purple;
 }

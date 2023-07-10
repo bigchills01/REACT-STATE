@@ -1,4 +1,9 @@
-.center {
+
+body{
+background-color : black;
+}
+
+.center  {
   width: 500px;
   height: auto;
   text-align: center;
@@ -15,7 +20,8 @@
 
 .contente h2,
 p {
-  font-weight: lighter;
+  fontfamily: poppins;
+  font-weight: 800;
   letter-spacing: 1px;
   width: 70%;
   margin: 10px auto;
@@ -27,5 +33,5 @@ p {
 }
 
 .social i:hover {
-  color: #3fb0ac;
+  color: blue;
 }

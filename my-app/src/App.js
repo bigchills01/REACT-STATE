@@ -9,11 +9,11 @@ import Profil from "./Components/Profile/Profil";
 class App extends React.Component {
   state = {
     Person: {
-      fullName: "Kale Makinde",
+      fullName: "Brendan shawn ",
       bio:
-        "I am a Full Stack Developer with over seven years of experience in developing web applications. I have a strong background in both front-end and back-end development and is proficient in several programming languages, including JavaScript, Python, Ruby, and Java. After completing my degree in English from University of Lagos, I started my career as a Junior Developer at IvyTech Company. Over the years, I have worked on several high-profile projects and have gained expertise in Agile development methodologies. I am passionate about creating scalable, user-friendly web applications that deliver exceptional user experiences. I have experience working with various front-end frameworks such as React and Angular, and I am equally comfortable working with back-end frameworks such as Node.js and Django. In my free time, I enjoy contributing to open-source projects and mentoring aspiring developers. I am also a avid traveler and enjoy exploring new cultures and cuisines.",
+        "I am a web developer with over seven years of experience in web application development. I have extensive experience in both front-end and back-end development and am fluent in a variety of programming languages, including JavaScript, Python, Ruby, and Java. After graduating from Oxford University with a degree in computer science, I began my career as a Junior Developer at Microsoft. I've worked on a number of high-profile projects over the years and am well-versed in Agile development approaches. I am deeply committed to developing scalable, user-friendly online applications that provide great user experiences. I have expertise working with several front-end frameworks such as React, Angular, and Vue, as well as back-end frameworks such as Node.js and Django. In my spare time,I enjoy working on open-source projects and training new developers. I am also an avid traveler who enjoys learning about other cultures and cuisines.",
         
-      profession: "Fullstack js",
+      profession: "software Engineer",
     },
     show: false,
     date: new Date(),
@@ -43,7 +43,7 @@ class App extends React.Component {
           <h2>It's : {date.toLocaleTimeString()}</h2>
         </div>
         <div className="App">
-          <h1 style={{ color: "#3fb0ac" }}>Welcome to my website</h1>
+          <h1 style={{ color: "purple" }}>Welcome to my website</h1>
           <p>press the button to show the profile </p>
           <div>
             <i className="fas fa-level-down-alt"></i>
